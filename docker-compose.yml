@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx
+    container_name: 'nginx-app'
+    restart: always
+    ports:
+      - 8080:80
